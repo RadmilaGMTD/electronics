@@ -104,6 +104,34 @@ argon2 = ["argon2-cffi (>=19.1.0)"]
 bcrypt = ["bcrypt"]
 
 [[package]]
+name = "django-filter"
+version = "25.1"
+description = "Django-filter is a reusable Django application for allowing users to filter querysets dynamically."
+optional = false
+python-versions = ">=3.9"
+files = [
+    {file = "django_filter-25.1-py3-none-any.whl", hash = "sha256:4fa48677cf5857b9b1347fed23e355ea792464e0fe07244d1fdfb8a806215b80"},
+    {file = "django_filter-25.1.tar.gz", hash = "sha256:1ec9eef48fa8da1c0ac9b411744b16c3f4c31176c867886e4c48da369c407153"},
+]
+
+[package.dependencies]
+Django = ">=4.2"
+
+[[package]]
+name = "djangorestframework"
+version = "3.16.0"
+description = "Web APIs for Django, made easy."
+optional = false
+python-versions = ">=3.9"
+files = [
+    {file = "djangorestframework-3.16.0-py3-none-any.whl", hash = "sha256:bea7e9f6b96a8584c5224bfb2e4348dfb3f8b5e34edbecb98da258e892089361"},
+    {file = "djangorestframework-3.16.0.tar.gz", hash = "sha256:f022ff46613584de994c0c6a4aebbace5fd700555fbe9d33b865ebf173eba6c9"},
+]
+
+[package.dependencies]
+django = ">=4.2"
+
+[[package]]
 name = "flake8"
 version = "7.3.0"
 description = "the modular source code checker: pep8 pyflakes and co"
@@ -504,4 +532,4 @@ files = [
 [metadata]
 lock-version = "2.0"
 python-versions = "^3.12"
-content-hash = "e3079b9168aea4258f211a925b610a380943878be00cdc65d1891bac3588a36e"
+content-hash = "0664660483b0e3fc7f5c96fe62a2eddf238a2913e787c4b4aed97bb5d0389e81"
